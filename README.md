@@ -2,6 +2,8 @@
 
 <div id="top"></div>
 
+Access my portfolio: https://rpw02.github.io/Assignment_01/
+
 <!-- ABOUT THE PROJECT -->
 ## **About The Project**
 
