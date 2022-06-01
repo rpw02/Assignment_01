@@ -1,0 +1,227 @@
+* 
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar 
+{
+    width: 100vw;
+    position: fixed;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 218, 255);
+}
+
+.logo
+{
+    font-size: 50px;
+    padding: 0 10vh;
+}
+
+.navbar ul 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 5vw 0 0;
+    width: 40vw;
+}
+
+.navbar li 
+{
+    /* background-color: red; */
+    font-size: 20px;
+}
+
+.intro
+{
+    background-image: url(spiritedaway.jpg);
+    background-color: rgb(255, 239, 249);
+    height: fit-content;
+}
+
+.intro-text
+{
+    padding: 200px 0 0 50px;
+}
+
+h2 
+{
+    font-size: 70px;
+}
+
+h3
+{
+    font-size: 45px;
+}
+
+h4 
+{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.btn
+{
+    padding: 150px 0 0 50px;
+    color: white;
+}
+
+.underline
+{
+    margin: 10px 0 0 0;
+    background-color: black;
+    height: 2px;
+    width: 145px;
+}
+
+.featured
+{
+    padding: 50px 0 0 50px;
+}
+
+.main 
+{
+    background-color:white;
+    height: fit-content;
+}
+
+
+.main .container ul
+{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    margin: 40vh 0;
+}
+
+
+
+.main .container .title
+{
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.image
+{
+    background-image: url(./image.jpg);
+    width: 45vw;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1vh solid rgb(212, 183, 255);
+}
+
+#first
+{
+    background-image: url(./icecream.jpg);
+}
+
+#second
+{
+    background-image: url(./irongiant.png)
+}
+
+#third
+{
+    background-image: url(./kueh.png)
+}
+
+#fourth
+{
+    background-image: url(./AD_asg1_cards.png)
+}
+
+#fifth
+{
+    background-image: url(./GC_asg2_XD.png)
+}
+
+.section
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25vh;
+    padding: 100px 0 0 30px;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.section .content h2
+{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+footer 
+{
+    background-color: rgb(255, 218, 255);
+    margin-top: 15vh;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.find-me
+{
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.email
+{
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+    cursor: pointer;
+}
+
+.icons-container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icons-container > *
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2vw;
+    height: 2vw;
+    margin: 2vh;
+    cursor: pointer;
+}
+
+.linkedin
+{
+    background-image: url(./linkedin.png);
+}
+
+.facebook
+{
+    background-image: url(./fb.png);
+}
+
+.instagram
+{
+    background-image: url(./ig.png);
+}
+
+.viewmore
+{
+    padding-top: 5vh;
+}
